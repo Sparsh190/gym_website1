@@ -1,0 +1,368 @@
+*{
+    margin: 0%;
+    padding: 0%;
+ }
+body{
+    background-color:rgb(1, 1, 14);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+nav{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(1, 1, 14);
+    padding: 22px;
+    box-shadow: 0px 2px 6px 2px rgb(31, 30, 30);
+    color: white;
+
+
+}
+.text-green{
+  color: rgb(20, 240, 104);
+}
+nav ul li a{
+    margin-inline: 22px;
+    text-decoration: none;
+    color: white;
+}
+ul li{
+    list-style: none;
+}
+nav ul{
+    margin-right: 63px;
+    margin-top: 6px;
+}
+.navbar-toggler-icon{
+  color: white !important;
+}
+.logo{
+    font-size: 25px;
+    margin-left: 33px;
+    color: rgb(20, 240, 104);
+}
+
+  ul li a:hover{
+    color: white;
+    border-bottom: 2px solid rgb(20, 251, 20); ;
+
+  }
+
+  /* main */
+
+  .home{
+    display: flex;
+    justify-content: center;
+    margin: top 155px; ;
+  }
+  .home img{
+    width: 500px;
+    height: auto;
+    margin-top: 130px;
+   
+    
+  }
+  .home .homeText{
+    margin-top: 200px;
+    margin-left: 44px;
+  }
+  .homeText h1{
+    font-size: 60px;
+    color: rgb(55, 248, 55);
+    
+  }
+  .homeText h3{
+    margin-top: 22px;
+    font-size: 22px;
+  }
+  .homeText p{
+    margin-top: 22px;
+    color: silver;
+  }
+  .homeText button{
+    margin-top: 22px;
+    font-size: 22px;
+    width: 140px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border: none;
+  }
+  .homeText button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgb(23, 252, 23);
+
+  }
+
+  .head{
+    text-align: center;
+    padding: 95px;
+  }
+  .head span{
+    color: rgb(37, 244, 37);
+  }
+  .ourProgram{
+    display: flex;
+    justify-content: center;
+  }
+  .ourProgram .crd{
+    margin-inline: 22px;
+    text-align: center;
+  }
+  .ourProgram .crd img:hover{
+    width: 50%;
+  }
+
+  /* plan */
+  .ourPlan{
+    display: flex;
+    justify-content: center;
+  }
+  .ourPlan .card{
+    width: 300px;
+    height: auto;
+    padding: 4px;
+    background-color: rgb(36, 35, 35);
+    text-align: center;
+    margin-inline: 22px;
+  }
+  .card i{
+    font-size: 22px;
+    margin-top: 22px;
+    color: orange;
+  }
+  .card h3{
+    margin-top: 22px;
+    color: rgb(58, 249, 58);
+
+  }
+  .card h1{
+    margin-top: 22px;
+    color: rgb(24, 255, 24);
+  }
+  .card p{
+    margin-top: 12px;
+    color: silver;
+  }
+  .card button{
+    margin-top: 22px;
+    width: 130px;
+    height: 38px;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-size: 18px;
+  }
+  .card button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgb(35, 252, 35);
+    cursor: pointer;
+  }
+  .card:hover{
+    transition: 0.7s ease;
+    width: 310px;
+    height: 440px;
+    background-color: black;
+    font-size: 19px;
+    cursor: pointer;
+
+  }
+
+  /* blog */
+  .ourBlog{
+    display: flex;
+    justify-content: center;
+  }
+  .ourBlog .blogCard{
+    width: 300px;
+    height: 400px;
+    margin-inline: 22px;
+    background-color: rgb(42, 41, 41);
+    margin-top: 40px;
+
+  }
+  .blogCard img{
+    width: 50%;
+  }
+  .blogCard p{
+    margin-top: 22px;
+  }
+  .blogText a{
+    text-decoration: none;
+    width: 90px;
+    padding: 11px;
+    background-color: green;
+    color: white;
+    position: absolute;
+    margin-top: 22px;
+    cursor: pointer;
+
+  }
+  .blogText{
+    margin-top: 11px;
+    margin-left: 6px;
+  }
+
+  /* cantact */
+  .contactPage{
+    display: flex;
+    justify-content: center;
+  }
+  .contactText{
+    margin-left: 33px;
+    color: rgb(33, 249, 33);
+    margin-top: 134px;
+    font-size: 32px;
+  }
+  .contactPage img{
+    width: 60%;
+    margin-left: -20px;
+  }
+  .contactUs{
+    text-align: center;
+    margin-top: 22px;
+  }
+  .contactUs input{
+    width: 350px;
+    padding: 8px;
+    height: 33px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    margin-top: 18px;
+  }
+  .contactUs button{
+    width: 365px;
+    height: 45px;
+    color: white;
+    border: none;
+    font-size: 22px;
+    background-color: rgb(41, 249, 41);
+    border-radius: 2px;
+    margin-top: 22px;
+  }
+  .contactUs button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgb(27, 246, 27);
+  }
+ 
+  .footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 53px;
+    padding: 22px;
+    /* box-shadow: 0px 2px 6px 4px rgb(36, 36, 36); */
+  }
+  .footer .footerText{
+    margin-inline: 73px;
+    margin-top: 33px;
+  }
+  .footerText p{
+margin-top: 11px;
+color: silver;
+  }  
+  @media screen and (max-width: 600px) {
+*{
+  margin-left: 0;
+}
+     .home{
+      display: block;
+      text-align: center;
+      margin: 185px;
+    }
+    .homeText{ 
+       width: 250px;
+    }
+    .home img{
+      align-items: left;
+    }
+    ul{
+      display: none;
+    }
+    .showData{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 23px;
+      background-color: gray;
+      gap: 20px;
+      border-radius: 5px;
+      position: fixed;
+      top: 75px;
+      right: 3%;
+    }
+    #bar{
+      display: block;
+      font-size: 25px;
+      cursor: pointer;
+    }
+ .homeText h1{
+   font-size: 36px;
+ }
+ .homeText h3{
+   font-size: 21px;
+ }
+ .homeText p{
+   font-size: 20px;
+ }
+
+ .ourProgram{
+  display: block;
+  text-align: center;
+  margin: 195px;
+ }
+.ourPlan{
+  display: block;
+  text-align: center;
+  margin: 185px;
+}
+.ourBlog{
+  display: block;
+  text-align: center;
+  margin: 185px;
+}
+.contactUs{
+  height: 50px;
+  padding: 55px;
+  align-items: center;
+}
+.contactPage{
+  display: block;
+  text-align: center;
+  margin: 185px;
+
+}
+.contactPage img{
+  width: 350px;
+  margin-top: 10px;
+  margin-right: 35px;
+
+}
+.contactText h1{
+  font-size: 30px;
+  text-align: center;
+  width: 50px;
+}
+.contactText h2{
+  font-size: 25px;
+  width: 40px;
+}
+.footer{
+  text-align: center;
+  padding: 10px;
+  line-height: 25px;
+  display: block;
+  margin: 185px;
+  flex-wrap: wrap;
+}
+.footerText{
+  width: 200px;
+  height: auto;
+}
+  } 
