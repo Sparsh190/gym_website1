@@ -28,7 +28,7 @@
             </ul>  
             <i id="bar" class="fa-solid fa-bars"></i>
         </nav> -->
-        <nav class="navbar navbar-expand-lg ">
+        <nav class="navbar navbar-expand-lg"data-bs-theme ="dark" >
             <div class="container-fluid">
               <a class="navbar-brand text-green" href="#">Ab Fitness</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,22 +37,22 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link text-green" aria-current="page" href="#">Home</a>
+                    <a class="nav-link text-green" aria-current="page" href="#home" id="homes" onclick="home()">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-green" href="#">Program</a>
+                    <a class="nav-link text-green" href="#plan" id="plans" onclick="plan()">plan</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link text-green" href="#">Blog</a>
+                      <a class="nav-link text-green" href="#blog" id="blogs" onclick="blog()"">Blog</a>
                 </li>
                   <li class="nav-item">
-                    <a class="nav-link text-green" href="#">Contact Us</a>
+                    <a class="nav-link text-green" href="#contact" id="contacts" onclick="contact()"">Contact Us</a>
                   </li>
                   
                 </ul>
                 <form class="d-flex" role="search">
                   
-                  <button class="btn btn-success" type="submit">Search</button>
+                  <button class="btn btn-success" type="submit">Join Now</button>
                 </form>
               </div>
             </div>
@@ -98,7 +98,7 @@
                 <h1>Our <span>Plan's</span></h1>
             </div>
             <div class="ourPlan">
-                <div class="card text-center">
+                <div class="cardd text-center">
                     <i class="fa-solid fa-bookmark"></i>
                     <h3>Basic Package</h3>
                     <h1>30 Day in 1000rs</h1>
@@ -110,7 +110,7 @@
                     <button class="text-center">Buy Plan</button>
 
                 </div>
-                <div class="card">
+                <div class="cardd">
                     <i class="fa-solid fa-diamond"></i>
                     <h3>Premium Package</h3>
                     <h1>30 Day in 5000rs</h1>
@@ -123,7 +123,7 @@
 
 
                 </div>
-                <div class="card">
+                <div class="cardd">
                     <i class="fa-solid fa-right-to-bracket"></i>
                     <h3>Diamond Package</h3>
                     <h1>30 Day in 10000rs</h1>

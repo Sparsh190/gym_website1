@@ -121,7 +121,7 @@ nav ul{
     display: flex;
     justify-content: center;
   }
-  .ourPlan .card{
+  .ourPlan .cardd{
     width: 300px;
     height: auto;
     padding: 4px;
@@ -129,25 +129,25 @@ nav ul{
     text-align: center;
     margin-inline: 22px;
   }
-  .card i{
+  .cardd i{
     font-size: 22px;
     margin-top: 22px;
     color: orange;
   }
-  .card h3{
+  .cardd h3{
     margin-top: 22px;
     color: rgb(58, 249, 58);
 
   }
-  .card h1{
+  .cardd h1{
     margin-top: 22px;
     color: rgb(24, 255, 24);
   }
-  .card p{
+  .cardd p{
     margin-top: 12px;
     color: silver;
   }
-  .card button{
+  .cardd button{
     margin-top: 22px;
     width: 130px;
     height: 38px;
@@ -156,16 +156,16 @@ nav ul{
     color: white;
     font-size: 18px;
   }
-  .card button:hover{
+  .cardd button:hover{
     border: 2px solid white;
     background-color: transparent;
     color: rgb(35, 252, 35);
     cursor: pointer;
   }
-  .card:hover{
+  .cardd:hover{
     transition: 0.7s ease;
     width: 310px;
-    height: 440px;
+    height: auto;
     background-color: black;
     font-size: 19px;
     cursor: pointer;
@@ -179,10 +179,11 @@ nav ul{
   }
   .ourBlog .blogCard{
     width: 300px;
-    height: 400px;
+    height: auto;
     margin-inline: 22px;
     background-color: rgb(42, 41, 41);
     margin-top: 40px;
+    
 
   }
   .blogCard img{
@@ -257,7 +258,7 @@ nav ul{
     justify-content: center;
     margin-top: 53px;
     padding: 22px;
-    /* box-shadow: 0px 2px 6px 4px rgb(36, 36, 36); */
+     box-shadow: 0px 2px 6px 4px rgb(36, 36, 36); 
   }
   .footer .footerText{
     margin-inline: 73px;
@@ -301,6 +302,7 @@ color: silver;
       display: block;
       font-size: 25px;
       cursor: pointer;
+      color: aliceblue;
     }
  .homeText h1{
    font-size: 36px;
@@ -355,11 +357,15 @@ color: silver;
 }
 .footer{
   text-align: center;
+  width: 100%;
   padding: 10px;
+  padding-right: 25px;
   line-height: 25px;
   display: block;
   margin: 185px;
   flex-wrap: wrap;
+  box-shadow: 0px 4px 5px 6px rgb(36, 36, 36); 
+  
 }
 .footerText{
   width: 200px;
